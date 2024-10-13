@@ -12,16 +12,15 @@
 ### 训练参数设置
 
 运行dataparam.py可以得到test.db全部的参数结果：以下是我们搜索的过程
+
     batch_size = trial.suggest_int('batch_size', 32, 128, log=True)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True)
-
     lr = trial.suggest_float('lr', 1e-6, 5e-2, log=True)
     weight_decay = trial.suggest_float('weight_decay', 1e-5, 1e-3, log=True)
     warmup_epochs = trial.suggest_int('warmup_epochs', 3, 15)
     initial_lr = trial.suggest_float('initial_lr', 1e-5, 1e-3, log=True)
     max_lr = trial.suggest_float('max_lr', 5e-4, 5e-2, log=True)
-
     dropout_rate = trial.suggest_float('dropout', 0.3, 0.6)
     optimizer_name = trial.suggest_categorical('optimizer', ['Adam', 'SGD', 'RMSprop'])
     scheduler_name = trial.suggest_categorical('scheduler', ['StepLR', 'CosineAnnealingLR', 'ReduceLROnPlateau'])
