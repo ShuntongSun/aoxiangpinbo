@@ -8,7 +8,8 @@
 
 完整的日志可以参考百度网盘链接：链接: https://pan.baidu.com/s/1nMEaKworCAdNvwjmvE6qmg?pwd=da9z 提取码: da9z 
 
-
+### 权重文件
+链接: https://pan.baidu.com/s/1WzDrY8XcgPfskq77HRuH9A 提取码: s3ep 
 ### 训练参数设置
 
 运行dataparam.py可以得到test.db全部的参数结果：以下是我们搜索的过程
