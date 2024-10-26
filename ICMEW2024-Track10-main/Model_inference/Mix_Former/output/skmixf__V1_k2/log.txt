@@ -1,0 +1,124 @@
+[ Sat Oct 19 14:15:33 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:16:11 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:16:13 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 32, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:16:13 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:16:13 2024 ] Training epoch: 1
+[ Sat Oct 19 14:17:32 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:17:34 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 32, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:17:34 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:17:34 2024 ] Training epoch: 1
+[ Sat Oct 19 14:19:29 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:19:32 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:19:32 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:19:32 2024 ] Training epoch: 1
+[ Sat Oct 19 14:20:14 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:20:16 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:20:16 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:20:16 2024 ] Training epoch: 1
+[ Sat Oct 19 14:21:03 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:21:05 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:21:05 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:21:05 2024 ] Training epoch: 1
+[ Sat Oct 19 14:21:57 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:21:59 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:21:59 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:21:59 2024 ] Training epoch: 1
+[ Sat Oct 19 14:23:56 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:23:58 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:23:58 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:23:58 2024 ] Training epoch: 1
+[ Sat Oct 19 14:30:05 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:30:07 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:30:07 2024 ] # Parameters: 1997943
+[ Sat Oct 19 14:30:07 2024 ] Training epoch: 1
+[ Sat Oct 19 14:30:28 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:30:30 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:30:30 2024 ] # Parameters: 1998023
+[ Sat Oct 19 14:30:30 2024 ] Training epoch: 1
+[ Sat Oct 19 14:31:18 2024 ] using warm up, epoch: 5
+[ Sat Oct 19 14:31:20 2024 ] Parameters:
+{'work_dir': './output/skmixf__V1_k2', 'model_saved_name': './output/skmixf__V1_k2/runs', 'config': './config/mixformer_V1_k2.yaml', 'phase': 'train', 'save_score': True, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 20, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/train.npz', 'debug': False, 'normalization': False, 'p_interval': [0.5, 1], 'random_choose': False, 'random_move': False, 'random_rot': False, 'random_shift': False, 'split': 'train', 'vel': False, 'window_size': 64}, 'test_feeder_args': {'bone': False, 'data_path': '/home/axzc/ICMEW2024-Track10-main/Model_inference/Mix_GCN/dataset/save_2d_pose/test.npz', 'debug': False, 'p_interval': [0.95], 'split': 'test', 'vel': False, 'window_size': 64}, 'model': 'model.ske_mixfk2.Model', 'model_args': {'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 155, 'num_person': 2, 'num_point': 17}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [50], 'device': [0], 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 64, 'test_batch_size': 64, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Sat Oct 19 14:31:20 2024 ] # Parameters: 1998023
+[ Sat Oct 19 14:31:20 2024 ] Training epoch: 1
+[ Sat Oct 19 14:36:04 2024 ] 	Mean training loss: 5.2102.  Mean training acc: 1.97%.
+[ Sat Oct 19 14:36:04 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 14:36:04 2024 ] Eval epoch: 1
+[ Sat Oct 19 14:36:24 2024 ] 	Mean test loss of 32 batches: 4.382640473544598.
+[ Sat Oct 19 14:36:24 2024 ] 	Top1: 3.70%
+[ Sat Oct 19 14:36:24 2024 ] 	Top5: 14.05%
+[ Sat Oct 19 14:36:24 2024 ] Training epoch: 2
+[ Sat Oct 19 14:41:06 2024 ] 	Mean training loss: 4.1309.  Mean training acc: 5.54%.
+[ Sat Oct 19 14:41:06 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 14:41:06 2024 ] Eval epoch: 2
+[ Sat Oct 19 14:41:25 2024 ] 	Mean test loss of 32 batches: 3.5809385776519775.
+[ Sat Oct 19 14:41:25 2024 ] 	Top1: 11.10%
+[ Sat Oct 19 14:41:25 2024 ] 	Top5: 34.95%
+[ Sat Oct 19 14:41:25 2024 ] Training epoch: 3
+[ Sat Oct 19 14:46:09 2024 ] 	Mean training loss: 3.5993.  Mean training acc: 11.23%.
+[ Sat Oct 19 14:46:09 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 14:46:09 2024 ] Eval epoch: 3
+[ Sat Oct 19 14:46:28 2024 ] 	Mean test loss of 32 batches: 3.231195278465748.
+[ Sat Oct 19 14:46:28 2024 ] 	Top1: 15.80%
+[ Sat Oct 19 14:46:28 2024 ] 	Top5: 50.95%
+[ Sat Oct 19 14:46:28 2024 ] Training epoch: 4
+[ Sat Oct 19 14:51:13 2024 ] 	Mean training loss: 3.2850.  Mean training acc: 16.00%.
+[ Sat Oct 19 14:51:13 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 14:51:13 2024 ] Eval epoch: 4
+[ Sat Oct 19 14:51:33 2024 ] 	Mean test loss of 32 batches: 3.194995231926441.
+[ Sat Oct 19 14:51:33 2024 ] 	Top1: 16.50%
+[ Sat Oct 19 14:51:33 2024 ] 	Top5: 49.55%
+[ Sat Oct 19 14:51:33 2024 ] Training epoch: 5
+[ Sat Oct 19 14:56:20 2024 ] 	Mean training loss: 3.1083.  Mean training acc: 20.06%.
+[ Sat Oct 19 14:56:20 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 14:56:20 2024 ] Eval epoch: 5
+[ Sat Oct 19 14:56:39 2024 ] 	Mean test loss of 32 batches: 2.8193100094795227.
+[ Sat Oct 19 14:56:39 2024 ] 	Top1: 23.80%
+[ Sat Oct 19 14:56:39 2024 ] 	Top5: 60.65%
+[ Sat Oct 19 14:56:39 2024 ] Training epoch: 6
+[ Sat Oct 19 15:01:17 2024 ] 	Mean training loss: 2.9414.  Mean training acc: 22.94%.
+[ Sat Oct 19 15:01:17 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 15:01:17 2024 ] Eval epoch: 6
+[ Sat Oct 19 15:01:37 2024 ] 	Mean test loss of 32 batches: 2.5864604264497757.
+[ Sat Oct 19 15:01:37 2024 ] 	Top1: 27.75%
+[ Sat Oct 19 15:01:37 2024 ] 	Top5: 66.75%
+[ Sat Oct 19 15:01:37 2024 ] Training epoch: 7
+[ Sat Oct 19 15:06:21 2024 ] 	Mean training loss: 2.8208.  Mean training acc: 26.56%.
+[ Sat Oct 19 15:06:21 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 15:06:22 2024 ] Eval epoch: 7
+[ Sat Oct 19 15:06:42 2024 ] 	Mean test loss of 32 batches: 2.7636675983667374.
+[ Sat Oct 19 15:06:42 2024 ] 	Top1: 29.45%
+[ Sat Oct 19 15:06:42 2024 ] 	Top5: 61.95%
+[ Sat Oct 19 15:06:42 2024 ] Training epoch: 8
+[ Sat Oct 19 15:11:26 2024 ] 	Mean training loss: 2.7468.  Mean training acc: 28.04%.
+[ Sat Oct 19 15:11:26 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 15:11:26 2024 ] Eval epoch: 8
+[ Sat Oct 19 15:11:46 2024 ] 	Mean test loss of 32 batches: 2.5477643348276615.
+[ Sat Oct 19 15:11:46 2024 ] 	Top1: 29.30%
+[ Sat Oct 19 15:11:46 2024 ] 	Top5: 67.60%
+[ Sat Oct 19 15:11:46 2024 ] Training epoch: 9
+[ Sat Oct 19 15:16:36 2024 ] 	Mean training loss: 2.6838.  Mean training acc: 30.22%.
+[ Sat Oct 19 15:16:36 2024 ] 	Time consumption: [Data]00%, [Network]100%
+[ Sat Oct 19 15:16:36 2024 ] Eval epoch: 9
+[ Sat Oct 19 15:16:56 2024 ] 	Mean test loss of 32 batches: 2.284856528043747.
+[ Sat Oct 19 15:16:56 2024 ] 	Top1: 36.25%
+[ Sat Oct 19 15:16:56 2024 ] 	Top5: 73.95%
+[ Sat Oct 19 15:16:56 2024 ] Training epoch: 10
