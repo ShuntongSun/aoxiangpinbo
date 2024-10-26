@@ -195,7 +195,7 @@ python search_best_weights.py --dataset csv3 --joint-dir /ICMEW2024-Track10-main
 **最后输出最好权重**
 
 + 我们的搜索结果如下所示：
-[image](../ICMEW2024-Track10-main/%E6%9C%80%E5%A5%BD%E6%9D%83%E9%87%8D%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+[image](ICMEW2024-Track10-main/%E6%9C%80%E5%A5%BD%E6%9D%83%E9%87%8D%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 #### 输出测试集B的最好分数
 
