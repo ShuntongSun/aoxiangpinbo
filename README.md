@@ -1,5 +1,6 @@
 ## 翱翔拼搏
 
+##### 项目链接：https://github.com/ShuntongSun/aoxiangpinbo/tree/aoxiangpb
 **本项目参考**
 
 + [liujf69/ICMEW2024-Track10: [ICMEW 2024\] Implementation of the paper “HDBN: A Novel Hybrid Dual-branch Network for Robust Skeleton-based Action Recognition“.](https://github.com/liujf69/ICMEW2024-Track10/tree/main)
